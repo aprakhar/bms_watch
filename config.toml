@@ -1,0 +1,22 @@
+[booking]
+
+[booking.open."Dune2"]
+url = "http://in.bookmyshow.com/buytickets/dune-part-two-imax-bengaluru/movie-bang-ET00387000-MT/20240229"
+date = 8
+month = 3
+year = 2024
+
+[booking.closed.Shaitaan]
+url = "https://in.bookmyshow.com/bengaluru/movies/shaitaan/ET00384234"
+
+[twilio]
+
+[twilio.secrets]
+account_sid = ""
+auth_token = ""
+
+[twilio.from_]
+from_ = ""
+
+[twilio.to]
+to = [""]
