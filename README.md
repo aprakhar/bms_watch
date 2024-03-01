@@ -1,7 +1,9 @@
 # Summary
 
-Python program to notify when a movie is available.
-It check every hour and sends a SMS when a movie is open for booking.
+Python program to notify when next batch movie tickets are available 
+for movies which already have some dates open.
+It checks if the tickets are available every hour. 
+It sends a SMS when a movie is open for booking at the specified date.
 
 # Steps to use for Users
 
