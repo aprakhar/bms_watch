@@ -14,7 +14,7 @@ It sends a SMS when a movie is open for booking at the specified date.
 - [ ] Create twilio account
 - [ ] Add your email and phone number to your twilio account
 - [ ] Add the details in [config file](config.toml)
-- [ ] Run the program `python3.12 -m bms_watch`
+- [ ] Run the program `python3.12 -m bms_watch` (If you want to run it in background use `python3.12 -m bms_watch &`)
 
 # Editing the [config file](config.toml)
 
