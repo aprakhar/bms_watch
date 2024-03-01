@@ -71,7 +71,7 @@ class ReadWebsite:
         try:
             _driver.find_element(By.XPATH, "//div[contains(@id, 'page-cta-container')]")
         except NoSuchElementException:
-            print("Tickets are not available yet")
+            pass
         else:
             msg_body: Final[str] = f"Tickets are available for {name}!"
             self._send_sms(msg_body)
